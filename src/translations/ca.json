@@ -16,7 +16,11 @@
         "show_position_control": "Control de posició?",
         "show_tilt_position_control": "Control d'inclinació?"
       },
+      "empty": {
+        "no_config_options": "Aquesta targeta no té opcions de configuració."
+      },
       "fan": {
+        "show_direction_control": "Control de direcció?",
         "show_oscillate_control": "Control d'oscil·lació?",
         "show_percentage_control": "Control de percentatge?"
       },
@@ -28,6 +32,7 @@
         "icon_animation": "Animar icona en activar?",
         "icon_color": "Color d'icona",
         "icon_type": "Tipus d'icona",
+        "slider_height": "Slider height",
         "layout": "Distribució",
         "primary_info": "Informació primaria",
         "secondary_info": "Informació secundaria",
@@ -122,6 +127,7 @@
           "entity": "Entitat",
           "light": "Llum",
           "menu": "Menú",
+          "quickbar": "Barra ràpida",
           "spacer": "Espai",
           "template": "Plantilla",
           "weather": "Oratge"
@@ -147,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Color per defecte"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

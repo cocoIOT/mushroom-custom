@@ -16,7 +16,11 @@
         "show_position_control": "Controllo percentuale apertura",
         "show_tilt_position_control": "Controllo percentuale inclinazione"
       },
+      "empty": {
+        "no_config_options": "Questa carta non ha opzioni di configurazione."
+      },
       "fan": {
+        "show_direction_control": "Controllo direzione",
         "show_oscillate_control": "Controllo oscillazione",
         "show_percentage_control": "Controllo potenza"
       },
@@ -28,6 +32,7 @@
         "icon_animation": "Anima l'icona quando attiva",
         "icon_color": "Colore dell'icona",
         "icon_type": "Tipo icona",
+        "slider_height": "Slider height",
         "layout": "Disposizione",
         "primary_info": "Informazione primaria",
         "secondary_info": "Informazione secondaria",
@@ -122,6 +127,7 @@
           "entity": "Entità",
           "light": "Luce",
           "menu": "Menù",
+          "quickbar": "Barra rapida",
           "spacer": "Distanziere",
           "template": "Modello",
           "weather": "Meteo"
@@ -147,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Colore predefinito"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

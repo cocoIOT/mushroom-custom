@@ -1,6 +1,7 @@
 import { version } from "../package.json";
 import "./utils/form/custom/ha-selector-mushroom-alignment";
 import "./utils/form/custom/ha-selector-mushroom-color";
+import "./utils/form/custom/ha-selector-mushroom-height";
 import "./utils/form/custom/ha-selector-mushroom-icon-type";
 import "./utils/form/custom/ha-selector-mushroom-info";
 import "./utils/form/custom/ha-selector-mushroom-layout";
@@ -13,7 +14,11 @@ import "./cards/empty-card/empty-card";
 import "./cards/entity-card/entity-card";
 import "./cards/fan-card/fan-card";
 import "./cards/humidifier-card/humidifier-card";
+<<<<<<< HEAD
 import "./cards/light-card/light-card";
+=======
+import "./cards/number-card/number-card";
+>>>>>>> 82fd297 ([ENH] : 커스텀 light card 생성)
 import "./cards/lock-card/lock-card";
 import "./cards/media-player-card/media-player-card";
 import "./cards/number-card/number-card";
@@ -26,7 +31,9 @@ import "./cards/vacuum-card/vacuum-card";
 
 import "./badges/template/template-badge";
 
+import "./cards/light-card/light-card";
+
 console.info(
-  `%c🍄 Mushroom 🍄 - ${version}`,
+  `%c🍄 Mushroom coco 🍄 - ${version}`,
   "color: #ef5350; font-weight: 700;"
 );

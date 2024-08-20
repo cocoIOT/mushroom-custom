@@ -16,17 +16,23 @@
         "show_position_control": "Керування позицією?",
         "show_tilt_position_control": "Керування нахилом?"
       },
+      "empty": {
+        "no_config_options": "Ця картка не має опцій конфігурації."
+      },
       "fan": {
+        "show_direction_control": "Керування напрямком?",
         "show_oscillate_control": "Керування повротом?",
         "show_percentage_control": "Керування швидкістю?"
       },
       "generic": {
         "collapsible_controls": "Приховувати елементи керування коли вимкнено?",
+        "color": "Колір",
         "content_info": "Вміст",
         "fill_container": "Заповнити контейнер",
         "icon_animation": "Анімувати іконку при активації?",
         "icon_color": "Колір іконки",
         "icon_type": "Тип іконки",
+        "slider_height": "Slider height",
         "layout": "Розташування",
         "primary_info": "Головна інформація",
         "secondary_info": "Додаткова інформація",
@@ -80,6 +86,7 @@
         "badge_icon": "Іконка значка",
         "content": "Вміст",
         "entity_extra": "Використовується в шаблонах та діях",
+        "label": "Мітка",
         "multiline_secondary": "Багаторядкова додаткова інформація?",
         "picture": "Зображення (замінить іконку)",
         "primary": "Головна інформація",
@@ -120,6 +127,7 @@
           "entity": "Сутність",
           "light": "Світло",
           "menu": "Меню",
+          "quickbar": "Швидка панель",
           "spacer": "Порожнє місце",
           "template": "Вручну",
           "weather": "Погода"
@@ -145,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Колір за замовчуванням"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

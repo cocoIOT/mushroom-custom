@@ -65,7 +65,7 @@ const CONTROLS_ICONS: Record<LightCardControl, string> = {
 
 registerCustomCard({
   type: LIGHT_CARD_NAME,
-  name: "Mushroom Light Card",
+  name: "Mushroom coco Light  Card",
   description: "Card for light entity",
 });
 
@@ -230,12 +230,14 @@ export class LightCard
             ${this.renderStateInfo(stateObj, appearance, name, stateDisplay)};
           </mushroom-state-item>
           ${isControlVisible
-            ? html`
-                <div class="actions" ?rtl=${rtl}>
-                  ${this.renderActiveControl(stateObj)}
-                  ${this.renderOtherControls()}
-                </div>
-              `
+            ? this._controls.map(
+                (c, index) => html`
+                  <div key=${index} class="actions" ?rtl=${rtl}>
+                    ${this.renderAllControls(stateObj, c)}
+                    <!-- ${this.renderOtherControls()} -->
+                  </div>
+                `
+              )
             : nothing}
         </mushroom-card>
       </ha-card>
@@ -299,7 +301,9 @@ export class LightCard
     switch (this._activeControl) {
       case "brightness_control":
         const lightRgbColor = getRGBColor(entity);
-        const sliderStyle = {};
+        const sliderStyle = {
+          height: "20px",
+        };
         const iconColor = this._config?.icon_color;
         if (lightRgbColor && this._config?.use_light_color) {
           const color = lightRgbColor.join(",");
@@ -328,15 +332,94 @@ export class LightCard
           />
         `;
       case "color_temp_control":
+        const tempStyle = {
+          height: "20px",
+        };
+
         return html`
           <mushroom-light-color-temp-control
             .hass=${this.hass}
             .entity=${entity}
+            style=${styleMap(tempStyle)}
           />
         `;
       case "color_control":
+        const colorStyle = {
+          height: "20px",
+        };
+
         return html`
-          <mushroom-light-color-control .hass=${this.hass} .entity=${entity} />
+          <mushroom-light-color-control
+            .hass=${this.hass}
+            .entity=${entity}
+            style=${styleMap(colorStyle)}
+          />
+        `;
+      default:
+        return nothing;
+    }
+  }
+
+  private renderAllControls(entity: LightEntity, type: LightCardControl) {
+    const slider_height = this._config?.slider_height;
+
+    switch (type) {
+      case "brightness_control":
+        const lightRgbColor = getRGBColor(entity);
+        const sliderStyle = {};
+        const iconColor = this._config?.icon_color;
+        sliderStyle["--control-height"] = `${slider_height}px`;
+        if (lightRgbColor && this._config?.use_light_color) {
+          const color = lightRgbColor.join(",");
+          sliderStyle["--slider-color"] = `rgb(${color})`;
+          sliderStyle["--slider-bg-color"] = `rgba(${color}, 0.2)`;
+          if (
+            isColorLight(lightRgbColor) &&
+            !(this.hass.themes as any).darkMode
+          ) {
+            sliderStyle["--slider-bg-color"] =
+              `rgba(var(--rgb-primary-text-color), 0.05)`;
+            sliderStyle["--slider-color"] =
+              `rgba(var(--rgb-primary-text-color), 0.15)`;
+          }
+        } else if (iconColor) {
+          const iconRgbColor = computeRgbColor(iconColor);
+          sliderStyle["--slider-color"] = `rgb(${iconRgbColor})`;
+          sliderStyle["--slider-bg-color"] = `rgba(${iconRgbColor}, 0.2)`;
+        }
+        return html`
+          <mushroom-light-brightness-control
+            .hass=${this.hass}
+            .entity=${entity}
+            style=${styleMap(sliderStyle)}
+            @current-change=${this.onCurrentBrightnessChange}
+          />
+        `;
+      case "color_temp_control":
+        const tempStyle = {};
+
+        tempStyle["--control-height"] = `${slider_height}px`;
+
+        return html`
+          <mushroom-light-color-temp-control
+            .hass=${this.hass}
+            .entity=${entity}
+            style=${styleMap(tempStyle)}
+          />
+        `;
+      case "color_control":
+        const colorStyle = {
+          height: `${slider_height}px`,
+        };
+
+        colorStyle["--control-height"] = `${slider_height}px`;
+
+        return html`
+          <mushroom-light-color-control
+            .hass=${this.hass}
+            .entity=${entity}
+            style=${styleMap(colorStyle)}
+          />
         `;
       default:
         return nothing;

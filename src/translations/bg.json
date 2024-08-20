@@ -1,4 +1,7 @@
 {
+  "card": {
+    "not_found": "Обектът не е намерен"
+  },
   "editor": {
     "card": {
       "chips": {
@@ -13,17 +16,23 @@
         "show_position_control": "Контрол на позицията?",
         "show_tilt_position_control": "Контрол на наклона?"
       },
+      "empty": {
+        "no_config_options": "Тази карта няма опции за конфигурация."
+      },
       "fan": {
+        "show_direction_control": "Контрол на посоката?",
         "show_oscillate_control": "Контрол на трептенето?",
         "show_percentage_control": "Процентов контрол?"
       },
       "generic": {
         "collapsible_controls": "Свий контролите при изключен",
+        "color": "Цвят",
         "content_info": "Съдържание",
         "fill_container": "Изпълване на контейнера",
         "icon_animation": "Анимирай иконата при активен?",
         "icon_color": "Цвят на икона",
         "icon_type": "Тип на икона",
+        "slider_height": "Slider height",
         "layout": "Оформление",
         "primary_info": "Първостепенна информация",
         "secondary_info": "Второстепенна информация",
@@ -64,11 +73,20 @@
           "volume_set": "Ниво на звука"
         }
       },
+      "number": {
+        "display_mode": "Режим на показване",
+        "display_mode_list": {
+          "buttons": "Бутони",
+          "default": "Основен (плъзгач)",
+          "slider": "Плъзгач"
+        }
+      },
       "template": {
         "badge_color": "Цвят на значка",
         "badge_icon": "Икона на значка",
         "content": "Съдържание",
         "entity_extra": "Използван в шаблони и действия",
+        "label": "Етикет",
         "multiline_secondary": "Много-редова второстепенна информация?",
         "picture": "Картина (ще замени иконата)",
         "primary": "Първостепенна информация",
@@ -76,13 +94,15 @@
       },
       "title": {
         "subtitle": "Подзаглавие",
-        "title": "Заглавие"
+        "subtitle_tap_action": "Действие при докосване на подзаглавието",
+        "title": "Заглавие",
+        "title_tap_action": "Действие при докосване на заглавието"
       },
       "update": {
         "show_buttons_control": "Контролни бутони?"
       },
       "vacuum": {
-        "commands": "Конади",
+        "commands": "Команди",
         "commands_list": {
           "on_off": "Вкл./Изкл."
         }
@@ -107,6 +127,8 @@
           "entity": "Обект",
           "light": "Осветление",
           "menu": "Меню",
+          "quickbar": "Бърза лента",
+          "spacer": "Разделител",
           "template": "Шаблон",
           "weather": "Време"
         }
@@ -131,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Основен цвят"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

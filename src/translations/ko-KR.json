@@ -1,4 +1,7 @@
 {
+  "card": {
+    "not_found": "엔티티를 찾을 수 없습니다"
+  },
   "editor": {
     "card": {
       "chips": {
@@ -13,17 +16,23 @@
         "show_position_control": "위치 컨트롤 표시",
         "show_tilt_position_control": "기울기 컨트롤 표시"
       },
+      "empty": {
+        "no_config_options": "이 카드에는 구성 옵션이 없습니다."
+      },
       "fan": {
+        "show_direction_control": "방향 컨트롤 표시",
         "show_oscillate_control": "오실레이트 컨트롤",
         "show_percentage_control": "퍼센트 컨트롤"
       },
       "generic": {
         "collapsible_controls": "꺼져있을 때 컨트롤 접기",
+        "color": "색",
         "content_info": "내용 정보",
         "fill_container": "콘테이너 채우기",
         "icon_animation": "활성화 시 아이콘 애니메이션 사용",
         "icon_color": "아이콘 색",
         "icon_type": "아이콘 타입",
+        "slider_height": "Slider height",
         "layout": "레이아웃",
         "primary_info": "기본 정보",
         "secondary_info": "보조 정보",
@@ -64,11 +73,20 @@
           "volume_set": "볼륨 레벨"
         }
       },
+      "number": {
+        "display_mode": "표시 모드",
+        "display_mode_list": {
+          "buttons": "버튼",
+          "default": "기본 (슬라이더)",
+          "slider": "슬라이더"
+        }
+      },
       "template": {
         "badge_color": "뱃지 색",
         "badge_icon": "뱃지 아이콘",
         "content": "내용",
         "entity_extra": "템플릿 및 작업에 사용",
+        "label": "레이블",
         "multiline_secondary": "Multiline secondary?",
         "picture": "그림 (아이콘 대체)",
         "primary": "기본 정보",
@@ -109,6 +127,8 @@
           "entity": "엔티티",
           "light": "조명",
           "menu": "메뉴",
+          "quickbar": "퀵바",
+          "spacer": "간격",
           "template": "템플릿",
           "weather": "날씨"
         }
@@ -133,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "기본 색"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

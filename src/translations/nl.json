@@ -32,6 +32,7 @@
         "icon_animation": "Icoon animeren indien actief?",
         "icon_color": "Icoon kleur",
         "icon_type": "Icoon type",
+        "slider_height": "Slider height",
         "layout": "Lay-out",
         "primary_info": "Primaire informatie",
         "secondary_info": "Secundaire informatie",
@@ -126,6 +127,7 @@
           "entity": "Entiteit",
           "light": "Licht",
           "menu": "Menu",
+          "quickbar": "Snelle balk",
           "spacer": "Afstandhouder",
           "template": "Sjabloon",
           "weather": "Weer"
@@ -151,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Standaard kleur"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

@@ -16,17 +16,23 @@
         "show_position_control": "Zobrazit ovládání polohy?",
         "show_tilt_position_control": "Zobrazit ovládání náklonu?"
       },
+      "empty": {
+        "no_config_options": "Tato karta nemá žádné konfigurační možnosti."
+      },
       "fan": {
-        "show_oscillate_control": "Ovládání oscilaceM",
+        "show_direction_control": "Ovládání směru?",
+        "show_oscillate_control": "Ovládání oscilace?",
         "show_percentage_control": "Ovládání v procentech?"
       },
       "generic": {
         "collapsible_controls": "Pokud je vypnuto, skrýt ovládací prvky",
+        "color": "Barva",
         "content_info": "Obsah",
         "fill_container": "Vyplnit prostor",
         "icon_animation": "Pokud je aktivní, animovat ikonu?",
         "icon_color": "Barva ikony",
         "icon_type": "Typ ikony",
+        "slider_height": "Slider height",
         "layout": "Rozložení",
         "primary_info": "Primární informace",
         "secondary_info": "Sekundární informace",
@@ -80,6 +86,7 @@
         "badge_icon": "Ikona odznaku",
         "content": "Obsah",
         "entity_extra": "Použito v šablonách a akcích",
+        "label": "Štítek",
         "multiline_secondary": "Víceřádková sekundární informace?",
         "picture": "Obrázek (nahradí ikonu)",
         "primary": "Primární informace",
@@ -120,6 +127,7 @@
           "entity": "Entita",
           "light": "Světlo",
           "menu": "Menu",
+          "quickbar": "Rychlá lišta",
           "spacer": "Mezera",
           "template": "Šablona",
           "weather": "Počasí"
@@ -145,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Výchozí barva"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

@@ -42,6 +42,7 @@ const plugins = [
   nodeResolve(),
   json(),
   commonjs(),
+<<<<<<< HEAD
   getBabelInputPlugin({
     babelHelpers: "bundled",
   }),
@@ -56,6 +57,11 @@ const plugins = [
     ],
     compact: true,
   }),
+=======
+  babel({
+    babelHelpers: "bundled",
+  }),
+>>>>>>> 82fd297 ([ENH] : 커스텀 light card 생성)
   ...(dev ? [serve(serveOptions)] : [terser()]),
 ];
 

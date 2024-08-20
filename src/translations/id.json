@@ -16,7 +16,11 @@
         "show_position_control": "Kontrol posisi?",
         "show_tilt_position_control": "Kontrol kemiringan?"
       },
+      "empty": {
+        "no_config_options": "Kartu ini tidak memiliki opsi konfigurasi."
+      },
       "fan": {
+        "show_direction_control": "Kontrol arah?",
         "show_oscillate_control": "Kontrol osilasi?",
         "show_percentage_control": "Kontrol persentase?"
       },
@@ -28,6 +32,7 @@
         "icon_animation": "Animasikan ikon saat aktif?",
         "icon_color": "Warna ikon",
         "icon_type": "Tipe ikon",
+        "slider_height": "Slider height",
         "layout": "Tata letak",
         "primary_info": "Informasi primer",
         "secondary_info": "Informasi sekunder",
@@ -122,6 +127,7 @@
           "entity": "Entitas",
           "light": "Lampu",
           "menu": "Menu",
+          "quickbar": "Bilah cepat",
           "spacer": "Pemisah",
           "template": "Templat",
           "weather": "Cuaca"
@@ -147,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Warna bawaan"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

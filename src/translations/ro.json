@@ -1,4 +1,7 @@
 {
+  "card": {
+    "not_found": "Entitatea nu a fost găsită"
+  },
   "editor": {
     "card": {
       "chips": {
@@ -13,17 +16,24 @@
         "show_position_control": "Comandă pentru poziție?",
         "show_tilt_position_control": "Comandă pentru înclinare?"
       },
+      "empty": {
+        "no_config_options": "Această carte nu are opțiuni de configurare."
+      },
       "fan": {
+        "show_direction_control": "Comandă direcție?",
         "icon_animation": "Animare pictograma la activare?",
         "show_oscillate_control": "Comandă oscilație?",
         "show_percentage_control": "Comandă procent?"
       },
       "generic": {
         "collapsible_controls": "Restrângere la dezactivare",
+        "color": "Culoare",
         "content_info": "Conținut",
         "fill_container": "Umplere container",
+        "icon_animation": "Animare pictograma la activare?",
         "icon_color": "Culoare pictogramă",
         "icon_type": "Tip pictogramă",
+        "slider_height": "Slider height",
         "layout": "Aranjare",
         "primary_info": "Informație principală",
         "secondary_info": "Informație secundară",
@@ -64,11 +74,20 @@
           "volume_set": "Nivel volum"
         }
       },
+      "number": {
+        "display_mode": "Mod afișare",
+        "display_mode_list": {
+          "buttons": "Butoane",
+          "default": "Implicit (cursor)",
+          "slider": "Cursor"
+        }
+      },
       "template": {
         "badge_color": "Culoare insignă",
         "badge_icon": "Pictogramă insignă",
         "content": "Conținut",
         "entity_extra": "Folosită în șabloane și acțiuni",
+        "label": "Etichetă",
         "multiline_secondary": "Informație secundară pe mai multe linii?",
         "picture": "Imagine (inlocuiește pictograma)",
         "primary": "Informație principală",
@@ -76,13 +95,18 @@
       },
       "title": {
         "subtitle": "Subtitlu",
-        "title": "Titlu"
+        "subtitle_tap_action": "Acțiune apăsare subtitlu",
+        "title": "Titlu",
+        "title_tap_action": "Acțiune apăsare titlu"
       },
       "update": {
         "show_buttons_control": "Comenzi control?"
       },
       "vacuum": {
-        "commands": "Comenzi"
+        "commands": "Comenzi",
+        "commands_list": {
+          "on_off": "Pornit/Oprit"
+        }
       },
       "weather": {
         "show_conditions": "Condiții?",
@@ -104,6 +128,8 @@
           "entity": "Entitate",
           "light": "Lumină",
           "menu": "Meniu",
+          "quickbar": "Bara rapidă",
+          "spacer": "Separator",
           "template": "Șablon",
           "weather": "Vreme"
         }
@@ -128,6 +154,11 @@
       "color_picker": {
         "values": {
           "default": "Culoare implicită"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

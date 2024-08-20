@@ -20,9 +20,8 @@
         "no_config_options": "Эта карточка не имеет опций конфигурации."
       },
       "fan": {
-        "icon_animation": "Анимировать иконку когда включено?",
         "show_direction_control": "Направление?",
-        "show_oscillate_control": "Oscillate control?",
+        "show_oscillate_control": "Управление колебанием?",
         "show_percentage_control": "Управлять процентами?"
       },
       "generic": {
@@ -33,6 +32,7 @@
         "icon_animation": "Анимировать иконку, когда активна?",
         "icon_color": "Цвет иконки",
         "icon_type": "Тип иконки",
+        "slider_height": "Slider height",
         "layout": "Расположение",
         "primary_info": "Основная информация",
         "secondary_info": "Второстепенная информация",
@@ -153,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Цвет по умолчанию"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

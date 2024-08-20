@@ -32,6 +32,7 @@
         "icon_animation": "Aktif olduğunda simgeyi hareket ettir?",
         "icon_color": "Simge renki",
         "icon_type": "İkon tipi",
+        "slider_height": "Slider height",
         "layout": "Düzen",
         "primary_info": "Birinci bilgi",
         "secondary_info": "İkinci bilgi",
@@ -126,6 +127,7 @@
           "entity": "Varlık",
           "light": "Işık",
           "menu": "Menü",
+          "quickbar": "Hızlı çubuk",
           "spacer": "Boşluk",
           "template": "Şablon",
           "weather": "Hava Durumu"
@@ -151,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Varsayılan renk"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

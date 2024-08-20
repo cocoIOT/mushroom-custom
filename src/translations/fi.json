@@ -16,7 +16,11 @@
         "show_position_control": "Sijainnin hallinta?",
         "show_tilt_position_control": "Kallistuksen säätö?"
       },
+      "empty": {
+        "no_config_options": "Tällä kortilla ei ole konfiguraatiovaihtoehtoja."
+      },
       "fan": {
+        "show_direction_control": "Suunnan säätö?",
         "show_oscillate_control": "Oskillaation säätö?",
         "show_percentage_control": "Prosentuaalinen säätö?"
       },
@@ -28,6 +32,7 @@
         "icon_animation": "Animoi kuvake, kun aktiivinen?",
         "icon_color": "Ikonin väri",
         "icon_type": "Kuvakkeen tyyppi",
+        "slider_height": "Slider height",
         "layout": "Asettelu",
         "primary_info": "Ensisijaiset tiedot",
         "secondary_info": "Toissijaiset tiedot",
@@ -122,6 +127,7 @@
           "entity": "Kohde",
           "light": "Valaisin",
           "menu": "Valikko",
+          "quickbar": "Pikapalkki",
           "spacer": "Välikappale",
           "template": "Malli",
           "weather": "Sää"
@@ -147,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Oletusväri"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

@@ -32,6 +32,7 @@
         "icon_animation": "¿Icono animado cuando está activo?",
         "icon_color": "Color de icono",
         "icon_type": "Tipo de icono",
+        "slider_height": "Slider height",
         "layout": "Diseño",
         "primary_info": "Información primaria",
         "secondary_info": "Información secundaria",
@@ -126,6 +127,7 @@
           "entity": "Entidad",
           "light": "Luz",
           "menu": "Menú",
+          "quickbar": "Barra rápida",
           "spacer": "Espaciador",
           "template": "Plantilla",
           "weather": "Clima"
@@ -151,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Color predeterminado"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

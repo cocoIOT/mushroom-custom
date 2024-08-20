@@ -16,17 +16,23 @@
         "show_position_control": "Điều khiển vị trí?",
         "show_tilt_position_control": "Điều khiển độ nghiêng?"
       },
+      "empty": {
+        "no_config_options": "Thẻ này không có tùy chọn cấu hình."
+      },
       "fan": {
+        "show_direction_control": "Điều khiển hướng?",
         "show_oscillate_control": "Điều khiển xoay?",
         "show_percentage_control": "Điều khiển dạng phần trăm?"
       },
       "generic": {
         "collapsible_controls": "Thu nhỏ điều kiển khi tắt",
+        "color": "Màu sắc",
         "content_info": "Nội dung",
         "fill_container": "Làm đầy ô chứa",
         "icon_animation": "Biểu tượng chuyển động khi kích hoạt?",
         "icon_color": "Màu biểu tượng",
         "icon_type": "Kiểu biểu tượng",
+        "slider_height": "Slider height",
         "layout": "Bố cục",
         "primary_info": "Thông tin chính",
         "secondary_info": "Thông tin phụ",
@@ -80,6 +86,7 @@
         "badge_icon": "Biểu tượng huy hiệu",
         "content": "Nội dung",
         "entity_extra": "Được sử dụng trong bản mẫu và hành động",
+        "label": "Nhãn",
         "multiline_secondary": "Nhiều dòng thông tin phụ?",
         "picture": "Ảnh (thay cho biểu tượng)",
         "primary": "Thông tin chính",
@@ -120,6 +127,7 @@
           "entity": "Thực thể",
           "light": "Đèn",
           "menu": "Trình đơn",
+          "quickbar": "Thanh nhanh",
           "spacer": "Ngăn cách",
           "template": "Mẫu",
           "weather": "Thời tiết"
@@ -145,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Màu mặc định"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

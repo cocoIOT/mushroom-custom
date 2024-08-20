@@ -32,6 +32,7 @@
         "icon_animation": "تحريك الرمز عندما يكون نشطًا؟",
         "icon_color": "لون الأيقونة",
         "icon_type": "نوع الأيقونة",
+        "slider_height": "Slider height",
         "layout": "التخطيط",
         "primary_info": "المعلومات الأساسية",
         "secondary_info": "المعلومات الفرعية",
@@ -177,6 +178,11 @@
           "default": "تخطيط افتراضي",
           "horizontal": "تخطيط أفقي",
           "vertical": "تخطيط رأسي"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       }
     }

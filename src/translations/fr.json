@@ -9,7 +9,7 @@
       },
       "climate": {
         "hvac_modes": "Modes du thermostat",
-        "show_temperature_control": "Contrôle de la température ?"
+        "show_temperature_control": "Contrôle de la température ?"
       },
       "cover": {
         "show_buttons_control": "Contrôle avec boutons ?",
@@ -20,7 +20,7 @@
         "no_config_options": "Cette carte n'a pas de paramètres."
       },
       "fan": {
-        "show_direction_control": "Contrôle de la direction ?",
+        "show_direction_control": "Contrôle de la direction ?",
         "show_oscillate_control": "Contrôle de l'oscillation ?",
         "show_percentage_control": "Contrôle de la vitesse ?"
       },
@@ -32,6 +32,7 @@
         "icon_animation": "Animation de l'icône ?",
         "icon_color": "Couleur de l'icône",
         "icon_type": "Type d'icône",
+        "slider_height": "Slider height",
         "layout": "Disposition",
         "primary_info": "Information principale",
         "secondary_info": "Information secondaire",
@@ -107,8 +108,7 @@
         }
       },
       "weather": {
-        "show_conditions": "Conditions ?",
-        "show_conditons": "Conditions ?",
+        "show_conditions": "Conditions ?",
         "show_temperature": "Température ?"
       }
     },
@@ -127,6 +127,7 @@
           "entity": "Entité",
           "light": "Lumière",
           "menu": "Menu",
+          "quickbar": "Barre rapide",
           "spacer": "Espacement",
           "template": "Modèle",
           "weather": "Météo"
@@ -152,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Couleur par défaut"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

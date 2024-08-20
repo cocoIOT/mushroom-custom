@@ -1,25 +1,45 @@
 {
+  "card": {
+    "not_found": "Η οντότητα δεν βρέθηκε"
+  },
   "editor": {
     "card": {
       "chips": {
         "alignment": "Ευθυγράμμιση"
       },
+      "climate": {
+        "hvac_modes": "Λειτουργίες HVAC",
+        "show_temperature_control": "Έλεγχος θερμοκρασίας;"
+      },
       "cover": {
         "show_buttons_control": "Έλεγχος κουμπιών;",
-        "show_position_control": "Έλεγχος θέσης;"
+        "show_position_control": "Έλεγχος θέσης;",
+        "show_tilt_position_control": "Έλεγχος κλίσης;"
+      },
+      "empty": {
+        "no_config_options": "Αυτή η κάρτα δεν έχει επιλογές διαμόρφωσης."
       },
       "fan": {
+        "show_direction_control": "Έλεγχος κατεύθυνσης;",
         "show_oscillate_control": "Έλεγχος ταλάντωσης;",
         "show_percentage_control": "Έλεγχος ποσοστού;"
       },
       "generic": {
+        "collapsible_controls": "Απόκρυψη στοιχείων ελέγχου όταν είναι απενεργοποιημένα",
+        "color": "Χρώμα",
         "content_info": "Περιεχόμενο",
+        "fill_container": "Γέμισμα δοχείου",
         "icon_animation": "Κίνηση εικονιδίου όταν είναι ενεργό;",
         "icon_color": "Χρώμα εικονιδίου",
+        "icon_type": "Τύπος εικονιδίου",
+        "slider_height": "Slider height",
         "layout": "Διάταξη",
         "primary_info": "Πρωτεύουσες πληροφορίες",
         "secondary_info": "Δευτερεύουσες πληροφορίες",
         "use_entity_picture": "Χρήση εικόνας οντότητας;"
+      },
+      "humidifier": {
+        "show_target_humidity_control": "Έλεγχος υγρασίας;"
       },
       "light": {
         "incompatible_controls": "Ορισμένα στοιχεία ελέγχου ενδέχεται να μην εμφανίζονται εάν το φωτιστικό σας δεν υποστηρίζει τη λειτουργία.",
@@ -27,6 +47,11 @@
         "show_color_control": "Έλεγχος χρώματος;",
         "show_color_temp_control": "Έλεγχος χρώματος θερμοκρασίας;",
         "use_light_color": "Χρήση χρώματος φωτος"
+      },
+      "lock": {
+        "lock": "Κλείδωμα",
+        "open": "Άνοιγμα",
+        "unlock": "Ξεκλείδωμα"
       },
       "media-player": {
         "media_controls": "Έλεγχος πολυμέσων",
@@ -38,6 +63,7 @@
           "repeat": "Λειτουργία επανάληψης",
           "shuffle": "Τυχαία σειρά"
         },
+        "show_volume_level": "Εμφάνιση επιπέδου έντασης ήχου",
         "use_media_artwork": "Χρήση έργων τέχνης πολυμέσων",
         "use_media_info": "Χρήση πληροφοριών πολυμέσων",
         "volume_controls": "Χειριστήρια έντασης ήχου",
@@ -47,22 +73,39 @@
           "volume_set": "Επίπεδο έντασης ήχου"
         }
       },
+      "number": {
+        "display_mode": "Λειτουργία εμφάνισης",
+        "display_mode_list": {
+          "buttons": "Κουμπιά",
+          "default": "Προεπιλογή (ολισθητήρας)",
+          "slider": "Ολισθητήρας"
+        }
+      },
       "template": {
+        "badge_color": "Χρώμα σήματος",
+        "badge_icon": "Εικονίδιο σήματος",
         "content": "Περιεχόμενο",
         "entity_extra": "Χρησιμοποιείται σε πρότυπα και ενέργειες",
+        "label": "Ετικέτα",
         "multiline_secondary": "Δευτερεύουσες πολλαπλών γραμμών;",
+        "picture": "Εικόνα (θα αντικαταστήσει το εικονίδιο)",
         "primary": "Πρωτεύουσες πληροφορίες",
         "secondary": "Δευτερεύουσες πληροφορίες"
       },
       "title": {
         "subtitle": "Υπότιτλος",
-        "title": "Τίτλος"
+        "subtitle_tap_action": "Ενέργεια πατήματος υπότιτλου",
+        "title": "Τίτλος",
+        "title_tap_action": "Ενέργεια πατήματος τίτλου"
       },
       "update": {
         "show_buttons_control": "Έλεγχος κουμπιών;"
       },
       "vacuum": {
-        "commands": "Εντολές"
+        "commands": "Εντολές",
+        "commands_list": {
+          "on_off": "Ενεργοποίηση/απενεργοποίηση"
+        }
       },
       "weather": {
         "show_conditions": "Συνθήκες;",
@@ -84,6 +127,8 @@
           "entity": "Οντότητα",
           "light": "Φως",
           "menu": "Μενού",
+          "quickbar": "Γρήγορη γραμμή",
+          "spacer": "Διαχωριστικό",
           "template": "Πρότυπο",
           "weather": "Καιρός"
         }
@@ -108,6 +153,19 @@
       "color_picker": {
         "values": {
           "default": "Προεπιλεγμένο χρώμα"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
+        }
+      },
+      "icon_type_picker": {
+        "values": {
+          "default": "Προεπιλεγμένος τύπος",
+          "entity-picture": "Εικόνα οντότητας",
+          "icon": "Εικονίδιο",
+          "none": "Τίποτα"
         }
       },
       "info_picker": {

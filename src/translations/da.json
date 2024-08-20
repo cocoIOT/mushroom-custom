@@ -16,7 +16,11 @@
         "show_position_control": "Positionskontrol?",
         "show_tilt_position_control": "Tiltkontrol?"
       },
+      "empty": {
+        "no_config_options": "Dette kort har ingen konfigurationsmuligheder."
+      },
       "fan": {
+        "show_direction_control": "Retningskontrol?",
         "show_oscillate_control": "Oscillationskontrol?",
         "show_percentage_control": "Procentkontrol?"
       },
@@ -28,6 +32,7 @@
         "icon_animation": "Animér ikon når aktiv?",
         "icon_color": "Ikon farve",
         "icon_type": "Ikon type",
+        "slider_height": "Slider height",
         "layout": "Layout",
         "primary_info": "Primær information",
         "secondary_info": "Sekundær information",
@@ -122,6 +127,7 @@
           "entity": "Enhed",
           "light": "Lys",
           "menu": "Menu",
+          "quickbar": "Hurtig bar",
           "spacer": "Afstand",
           "template": "Skabelon",
           "weather": "Vejr"
@@ -147,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Standardfarve"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

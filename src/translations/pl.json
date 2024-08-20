@@ -16,6 +16,9 @@
         "show_position_control": "Sterowanie położeniem?",
         "show_tilt_position_control": "Sterowanie poziomem otwarcia?"
       },
+      "empty": {
+        "no_config_options": "Ta karta nie ma opcji konfiguracji."
+      },
       "fan": {
         "show_direction_control": "Kontrola kierunku?",
         "show_oscillate_control": "Sterowanie oscylacją?",
@@ -29,6 +32,7 @@
         "icon_animation": "Animować, gdy aktywny?",
         "icon_color": "Kolor ikony",
         "icon_type": "Typ ikony",
+        "slider_height": "Slider height",
         "layout": "Układ",
         "primary_info": "Informacje główne",
         "secondary_info": "Informacje drugorzędne",
@@ -123,6 +127,7 @@
           "entity": "Encja",
           "light": "Światło",
           "menu": "Menu",
+          "quickbar": "Szybki pasek",
           "spacer": "Odstęp",
           "template": "Szablon",
           "weather": "Pogoda"
@@ -148,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "Domyślny kolor"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {

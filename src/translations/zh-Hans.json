@@ -32,6 +32,7 @@
         "icon_animation": "激活时使用动态图标?",
         "icon_color": "图标颜色",
         "icon_type": "图标类型",
+        "slider_height": "Slider height",
         "layout": "布局",
         "primary_info": "首要信息",
         "secondary_info": "次要信息",
@@ -126,6 +127,7 @@
           "entity": "实体",
           "light": "灯光",
           "menu": "菜单",
+          "quickbar": "快速栏",
           "spacer": "占位符",
           "template": "模板",
           "weather": "天气"
@@ -151,6 +153,11 @@
       "color_picker": {
         "values": {
           "default": "默认颜色"
+        }
+      },
+      "height_picker": {
+        "values": {
+          "default": "42"
         }
       },
       "icon_type_picker": {
