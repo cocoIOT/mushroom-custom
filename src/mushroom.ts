@@ -14,11 +14,7 @@ import "./cards/empty-card/empty-card";
 import "./cards/entity-card/entity-card";
 import "./cards/fan-card/fan-card";
 import "./cards/humidifier-card/humidifier-card";
-<<<<<<< HEAD
 import "./cards/light-card/light-card";
-=======
-import "./cards/number-card/number-card";
->>>>>>> 82fd297 ([ENH] : 커스텀 light card 생성)
 import "./cards/lock-card/lock-card";
 import "./cards/media-player-card/media-player-card";
 import "./cards/number-card/number-card";
@@ -30,8 +26,6 @@ import "./cards/update-card/update-card";
 import "./cards/vacuum-card/vacuum-card";
 
 import "./badges/template/template-badge";
-
-import "./cards/light-card/light-card";
 
 console.info(
   `%c🍄 Mushroom coco 🍄 - ${version}`,
