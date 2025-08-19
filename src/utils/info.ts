@@ -6,6 +6,7 @@ const TIMESTAMP_STATE_DOMAINS = ["button", "input_button", "scene"];
 
 export const INFOS = [
   "name",
+  "entity_id",
   "state",
   "last-changed",
   "last-updated",
@@ -26,6 +27,8 @@ export function computeInfoDisplay(
   switch (info) {
     case "name":
       return name;
+    case "entity_id":
+      return stateObj.entity_id;
     case "state":
       const domain = stateObj.entity_id.split(".")[0];
       if (
